@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DF1337C989FE341383F11F2 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = B3854914B34A46FE66768295 /* awsconfiguration.json */; };
+		2FCF77CB5471A9745BDDADA9 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 046B80964D0DAE09DA17FF1B /* amplifyconfiguration.json */; };
 		5D3210F32C208D53007040FE /* swiftUI_navegacionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3210F22C208D53007040FE /* swiftUI_navegacionApp.swift */; };
 		5D3210F52C208D53007040FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3210F42C208D53007040FE /* ContentView.swift */; };
 		5D3210F72C208D55007040FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3210F62C208D55007040FE /* Assets.xcassets */; };
 		5D3210FA2C208D55007040FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3210F92C208D55007040FE /* Preview Assets.xcassets */; };
+		5D3211032C208E1D007040FE /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3211022C208E1D007040FE /* DetailScreen.swift */; };
+		5D3211082C20BB06007040FE /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3211072C20BB06007040FE /* DetailViewModel.swift */; };
+		5DE0A3722C236AFD00E96430 /* UserChipComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0A3712C236AFD00E96430 /* UserChipComponent.swift */; };
+		5DE0A3752C24C24700E96430 /* AWSAPIPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 5DE0A3742C24C24700E96430 /* AWSAPIPlugin */; };
+		5DE0A3772C24C24700E96430 /* AWSCloudWatchLoggingPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 5DE0A3762C24C24700E96430 /* AWSCloudWatchLoggingPlugin */; };
+		5DE0A3792C24C24700E96430 /* AWSCognitoAuthPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 5DE0A3782C24C24700E96430 /* AWSCognitoAuthPlugin */; };
+		5DE0A37B2C24C24700E96430 /* AWSDataStorePlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 5DE0A37A2C24C24700E96430 /* AWSDataStorePlugin */; };
+		5DE0A37D2C24C24700E96430 /* AWSLocationGeoPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 5DE0A37C2C24C24700E96430 /* AWSLocationGeoPlugin */; };
+		5DE0A3802C25DBAE00E96430 /* UIBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE0A37F2C25DBAE00E96430 /* UIBasics.swift */; };
+		5DE0A3872C25E03300E96430 /* PlaywriteUSTrad-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0A3832C25DFFC00E96430 /* PlaywriteUSTrad-ExtraLight.ttf */; };
+		5DE0A3882C25E03300E96430 /* PlaywriteUSTrad-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0A3842C25DFFC00E96430 /* PlaywriteUSTrad-Light.ttf */; };
+		5DE0A3892C25E03300E96430 /* PlaywriteUSTrad-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0A3862C25DFFC00E96430 /* PlaywriteUSTrad-Regular.ttf */; };
+		5DE0A38A2C25E03300E96430 /* PlaywriteUSTrad-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DE0A3852C25DFFC00E96430 /* PlaywriteUSTrad-Thin.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046B80964D0DAE09DA17FF1B /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
 		5D3210EF2C208D53007040FE /* swiftUI navegacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftUI navegacion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D3210F22C208D53007040FE /* swiftUI_navegacionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_navegacionApp.swift; sourceTree = "<group>"; };
 		5D3210F42C208D53007040FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D3210F62C208D55007040FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D3210F92C208D55007040FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D3211022C208E1D007040FE /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		5D3211072C20BB06007040FE /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		5DE0A3712C236AFD00E96430 /* UserChipComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChipComponent.swift; sourceTree = "<group>"; };
+		5DE0A37F2C25DBAE00E96430 /* UIBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBasics.swift; sourceTree = "<group>"; };
+		5DE0A3832C25DFFC00E96430 /* PlaywriteUSTrad-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteUSTrad-ExtraLight.ttf"; sourceTree = "<group>"; };
+		5DE0A3842C25DFFC00E96430 /* PlaywriteUSTrad-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteUSTrad-Light.ttf"; sourceTree = "<group>"; };
+		5DE0A3852C25DFFC00E96430 /* PlaywriteUSTrad-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteUSTrad-Thin.ttf"; sourceTree = "<group>"; };
+		5DE0A3862C25DFFC00E96430 /* PlaywriteUSTrad-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlaywriteUSTrad-Regular.ttf"; sourceTree = "<group>"; };
+		5DE0A38B2C25E1D800E96430 /* swiftUI-navegacion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "swiftUI-navegacion-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B3854914B34A46FE66768295 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE0A3752C24C24700E96430 /* AWSAPIPlugin in Frameworks */,
+				5DE0A37D2C24C24700E96430 /* AWSLocationGeoPlugin in Frameworks */,
+				5DE0A3772C24C24700E96430 /* AWSCloudWatchLoggingPlugin in Frameworks */,
+				5DE0A3792C24C24700E96430 /* AWSCognitoAuthPlugin in Frameworks */,
+				5DE0A37B2C24C24700E96430 /* AWSDataStorePlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +68,7 @@
 			children = (
 				5D3210F12C208D53007040FE /* swiftUI navegacion */,
 				5D3210F02C208D53007040FE /* Products */,
+				AF435E98AF2D8C919A8643F0 /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +83,9 @@
 		5D3210F12C208D53007040FE /* swiftUI navegacion */ = {
 			isa = PBXGroup;
 			children = (
+				5DE0A38B2C25E1D800E96430 /* swiftUI-navegacion-Info.plist */,
+				5DE0A3822C25DFE100E96430 /* fonts */,
+				5D3211002C208DFA007040FE /* Screens */,
 				5D3210F22C208D53007040FE /* swiftUI_navegacionApp.swift */,
 				5D3210F42C208D53007040FE /* ContentView.swift */,
 				5D3210F62C208D55007040FE /* Assets.xcassets */,
@@ -65,6 +100,61 @@
 				5D3210F92C208D55007040FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D3211002C208DFA007040FE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0A37E2C25DB8D00E96430 /* UIBasics */,
+				5DE0A3702C236AED00E96430 /* Components */,
+				5D3211012C208E08007040FE /* Detail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5D3211012C208E08007040FE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5D3211022C208E1D007040FE /* DetailScreen.swift */,
+				5D3211072C20BB06007040FE /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5DE0A3702C236AED00E96430 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0A3712C236AFD00E96430 /* UserChipComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5DE0A37E2C25DB8D00E96430 /* UIBasics */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0A37F2C25DBAE00E96430 /* UIBasics.swift */,
+			);
+			path = UIBasics;
+			sourceTree = "<group>";
+		};
+		5DE0A3822C25DFE100E96430 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5DE0A3832C25DFFC00E96430 /* PlaywriteUSTrad-ExtraLight.ttf */,
+				5DE0A3842C25DFFC00E96430 /* PlaywriteUSTrad-Light.ttf */,
+				5DE0A3862C25DFFC00E96430 /* PlaywriteUSTrad-Regular.ttf */,
+				5DE0A3852C25DFFC00E96430 /* PlaywriteUSTrad-Thin.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		AF435E98AF2D8C919A8643F0 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				B3854914B34A46FE66768295 /* awsconfiguration.json */,
+				046B80964D0DAE09DA17FF1B /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +173,13 @@
 			dependencies = (
 			);
 			name = "swiftUI navegacion";
+			packageProductDependencies = (
+				5DE0A3742C24C24700E96430 /* AWSAPIPlugin */,
+				5DE0A3762C24C24700E96430 /* AWSCloudWatchLoggingPlugin */,
+				5DE0A3782C24C24700E96430 /* AWSCognitoAuthPlugin */,
+				5DE0A37A2C24C24700E96430 /* AWSDataStorePlugin */,
+				5DE0A37C2C24C24700E96430 /* AWSLocationGeoPlugin */,
+			);
 			productName = "swiftUI navegacion";
 			productReference = 5D3210EF2C208D53007040FE /* swiftUI navegacion.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +208,9 @@
 				Base,
 			);
 			mainGroup = 5D3210E62C208D53007040FE;
+			packageReferences = (
+				5DE0A3732C24C24700E96430 /* XCRemoteSwiftPackageReference "amplify-swift" */,
+			);
 			productRefGroup = 5D3210F02C208D53007040FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +225,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE0A3872C25E03300E96430 /* PlaywriteUSTrad-ExtraLight.ttf in Resources */,
+				5DE0A3882C25E03300E96430 /* PlaywriteUSTrad-Light.ttf in Resources */,
+				5DE0A3892C25E03300E96430 /* PlaywriteUSTrad-Regular.ttf in Resources */,
+				5DE0A38A2C25E03300E96430 /* PlaywriteUSTrad-Thin.ttf in Resources */,
 				5D3210FA2C208D55007040FE /* Preview Assets.xcassets in Resources */,
 				5D3210F72C208D55007040FE /* Assets.xcassets in Resources */,
+				0DF1337C989FE341383F11F2 /* awsconfiguration.json in Resources */,
+				2FCF77CB5471A9745BDDADA9 /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +245,10 @@
 			files = (
 				5D3210F52C208D53007040FE /* ContentView.swift in Sources */,
 				5D3210F32C208D53007040FE /* swiftUI_navegacionApp.swift in Sources */,
+				5DE0A3802C25DBAE00E96430 /* UIBasics.swift in Sources */,
+				5D3211032C208E1D007040FE /* DetailScreen.swift in Sources */,
+				5D3211082C20BB06007040FE /* DetailViewModel.swift in Sources */,
+				5DE0A3722C236AFD00E96430 /* UserChipComponent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +385,8 @@
 				DEVELOPMENT_TEAM = M4772AA7B2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftUI-navegacion-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +416,8 @@
 				DEVELOPMENT_TEAM = M4772AA7B2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swiftUI-navegacion-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -344,6 +458,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DE0A3732C24C24700E96430 /* XCRemoteSwiftPackageReference "amplify-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/aws-amplify/amplify-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.35.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DE0A3742C24C24700E96430 /* AWSAPIPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DE0A3732C24C24700E96430 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSAPIPlugin;
+		};
+		5DE0A3762C24C24700E96430 /* AWSCloudWatchLoggingPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DE0A3732C24C24700E96430 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCloudWatchLoggingPlugin;
+		};
+		5DE0A3782C24C24700E96430 /* AWSCognitoAuthPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DE0A3732C24C24700E96430 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSCognitoAuthPlugin;
+		};
+		5DE0A37A2C24C24700E96430 /* AWSDataStorePlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DE0A3732C24C24700E96430 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSDataStorePlugin;
+		};
+		5DE0A37C2C24C24700E96430 /* AWSLocationGeoPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DE0A3732C24C24700E96430 /* XCRemoteSwiftPackageReference "amplify-swift" */;
+			productName = AWSLocationGeoPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5D3210E72C208D53007040FE /* Project object */;
 }
